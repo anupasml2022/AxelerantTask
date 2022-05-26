@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="18" passed="9" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-26T21:50:49 IST" name="checkout journey" finished-at="2022-05-26T21:59:18 IST" duration-ms="508881">
+    <groups>
+    </groups>
+    <test started-at="2022-05-26T21:50:49 IST" name="Test" finished-at="2022-05-26T21:59:18 IST" duration-ms="508881">
+      <class name="com.mystoreTestScript.Axelerant.Testcase_addtocartpage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystoreTestScript.Axelerant.Testcase_addtocartpage@77eca502]" started-at="2022-05-26T21:56:11 IST" name="setup" finished-at="2022-05-26T21:56:29 IST" duration-ms="18190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addToCartTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mystoreTestScript.Axelerant.Testcase_addtocartpage@77eca502]" started-at="2022-05-26T21:56:29 IST" name="addToCartTest" data-provider="getProduct" finished-at="2022-05-26T21:57:03 IST" duration-ms="34239" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[t-shirt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystoreTestScript.Axelerant.Testcase_addtocartpage@77eca502]" started-at="2022-05-26T21:57:03 IST" name="tearDown" finished-at="2022-05-26T21:57:04 IST" duration-ms="693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mystoreTestScript.Axelerant.Testcase_addtocartpage -->
+      <class name="com.mystoreTestScript.Axelerant.Testcase_sort_filter">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystoreTestScript.Axelerant.Testcase_sort_filter@3246fb96]" started-at="2022-05-26T21:57:04 IST" name="setup" finished-at="2022-05-26T21:57:27 IST" duration-ms="22911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="sortfilter()[pri:0, instance:com.mystoreTestScript.Axelerant.Testcase_sort_filter@3246fb96]" started-at="2022-05-26T21:57:27 IST" name="sortfilter" finished-at="2022-05-26T21:57:55 IST" duration-ms="28518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortfilter -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystoreTestScript.Axelerant.Testcase_sort_filter@3246fb96]" started-at="2022-05-26T21:57:55 IST" name="tearDown" finished-at="2022-05-26T21:57:56 IST" duration-ms="727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mystoreTestScript.Axelerant.Testcase_sort_filter -->
+      <class name="com.mystoreTestScript.Axelerant.Testcase_Landingpage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystoreTestScript.Axelerant.Testcase_Landingpage@26275bef]" started-at="2022-05-26T21:53:20 IST" name="setup" finished-at="2022-05-26T21:53:38 IST" duration-ms="18577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyTitle()[pri:0, instance:com.mystoreTestScript.Axelerant.Testcase_Landingpage@26275bef]" started-at="2022-05-26T21:53:38 IST" name="verifyTitle" finished-at="2022-05-26T21:53:38 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystoreTestScript.Axelerant.Testcase_Landingpage@26275bef]" started-at="2022-05-26T21:53:38 IST" name="tearDown" finished-at="2022-05-26T21:53:39 IST" duration-ms="673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystoreTestScript.Axelerant.Testcase_Landingpage@26275bef]" started-at="2022-05-26T21:53:39 IST" name="setup" finished-at="2022-05-26T21:53:51 IST" duration-ms="11778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifylogo()[pri:0, instance:com.mystoreTestScript.Axelerant.Testcase_Landingpage@26275bef]" started-at="2022-05-26T21:53:51 IST" name="verifylogo" finished-at="2022-05-26T21:53:57 IST" duration-ms="6089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystoreTestScript.Axelerant.Testcase_Landingpage@26275bef]" started-at="2022-05-26T21:53:57 IST" name="tearDown" finished-at="2022-05-26T21:53:58 IST" duration-ms="1105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mystoreTestScript.Axelerant.Testcase_Landingpage -->
+      <class name="com.mystoreTestScript.Axelerant.Testcase_OrderPage">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystoreTestScript.Axelerant.Testcase_OrderPage@140c9f39]" started-at="2022-05-26T21:50:49 IST" name="loadConfig" finished-at="2022-05-26T21:50:49 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystoreTestScript.Axelerant.Testcase_OrderPage@140c9f39]" started-at="2022-05-26T21:50:51 IST" name="setup" finished-at="2022-05-26T21:51:40 IST" duration-ms="48741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyTotalPrice(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mystoreTestScript.Axelerant.Testcase_OrderPage@140c9f39]" started-at="2022-05-26T21:51:40 IST" name="verifyTotalPrice" data-provider="getProduct" finished-at="2022-05-26T21:52:28 IST" duration-ms="48410" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[t-shirt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTotalPrice -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystoreTestScript.Axelerant.Testcase_OrderPage@140c9f39]" started-at="2022-05-26T21:52:28 IST" name="tearDown" finished-at="2022-05-26T21:52:29 IST" duration-ms="740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mystoreTestScript.Axelerant.Testcase_OrderPage -->
+      <class name="com.mystoreTestScript.Axelerant.Testcase_HomePage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystoreTestScript.Axelerant.Testcase_HomePage@7690781]" started-at="2022-05-26T21:53:58 IST" name="setup" finished-at="2022-05-26T21:54:12 IST" duration-ms="14141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="WishlistTest(java.lang.String, java.lang.String)[pri:0, instance:com.mystoreTestScript.Axelerant.Testcase_HomePage@7690781]" started-at="2022-05-26T21:54:12 IST" name="WishlistTest" data-provider="Credentials" finished-at="2022-05-26T21:54:23 IST" duration-ms="10320" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gudusamal2017@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gudulu@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WishlistTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystoreTestScript.Axelerant.Testcase_HomePage@7690781]" started-at="2022-05-26T21:54:23 IST" name="tearDown" finished-at="2022-05-26T21:54:24 IST" duration-ms="1573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystoreTestScript.Axelerant.Testcase_HomePage@7690781]" started-at="2022-05-26T21:54:24 IST" name="setup" finished-at="2022-05-26T21:54:39 IST" duration-ms="14947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="WishlistTest(java.lang.String, java.lang.String)[pri:0, instance:com.mystoreTestScript.Axelerant.Testcase_HomePage@7690781]" started-at="2022-05-26T21:54:39 IST" name="WishlistTest" data-provider="Credentials" finished-at="2022-05-26T21:54:51 IST" duration-ms="11611" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dggdhhh@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kfjuhnn]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at com.mystoreTestScript.Axelerant.Testcase_HomePage.WishlistTest(Testcase_HomePage.java:42)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WishlistTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystoreTestScript.Axelerant.Testcase_HomePage@7690781]" started-at="2022-05-26T21:54:51 IST" name="tearDown" finished-at="2022-05-26T21:54:52 IST" duration-ms="701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystoreTestScript.Axelerant.Testcase_HomePage@7690781]" started-at="2022-05-26T21:54:52 IST" name="setup" finished-at="2022-05-26T21:55:06 IST" duration-ms="13547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="orderhistoryTest(java.lang.String, java.lang.String)[pri:0, instance:com.mystoreTestScript.Axelerant.Testcase_HomePage@7690781]" started-at="2022-05-26T21:55:06 IST" name="orderhistoryTest" data-provider="Credentials" finished-at="2022-05-26T21:55:23 IST" duration-ms="17622" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gudusamal2017@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gudulu@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderhistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystoreTestScript.Axelerant.Testcase_HomePage@7690781]" started-at="2022-05-26T21:55:23 IST" name="tearDown" finished-at="2022-05-26T21:55:24 IST" duration-ms="690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystoreTestScript.Axelerant.Testcase_HomePage@7690781]" started-at="2022-05-26T21:55:24 IST" name="setup" finished-at="2022-05-26T21:55:39 IST" duration-ms="15456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="orderhistoryTest(java.lang.String, java.lang.String)[pri:0, instance:com.mystoreTestScript.Axelerant.Testcase_HomePage@7690781]" started-at="2022-05-26T21:55:39 IST" name="orderhistoryTest" data-provider="Credentials" finished-at="2022-05-26T21:56:10 IST" duration-ms="30226" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dggdhhh@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kfjuhnn]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at com.mystoreTestScript.Axelerant.Testcase_HomePage.orderhistoryTest(Testcase_HomePage.java:54)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderhistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystoreTestScript.Axelerant.Testcase_HomePage@7690781]" started-at="2022-05-26T21:56:10 IST" name="tearDown" finished-at="2022-05-26T21:56:11 IST" duration-ms="686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mystoreTestScript.Axelerant.Testcase_HomePage -->
+      <class name="com.mystoreTestScript.Axelerant.EndtoEndTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystoreTestScript.Axelerant.EndtoEndTest@4d910fd6]" started-at="2022-05-26T21:52:29 IST" name="setup" finished-at="2022-05-26T21:52:43 IST" duration-ms="13659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="endToEndTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mystoreTestScript.Axelerant.EndtoEndTest@4d910fd6]" started-at="2022-05-26T21:52:43 IST" name="endToEndTest" data-provider="getProduct" finished-at="2022-05-26T21:53:19 IST" duration-ms="35922" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[t-shirt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endToEndTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystoreTestScript.Axelerant.EndtoEndTest@4d910fd6]" started-at="2022-05-26T21:53:19 IST" name="tearDown" finished-at="2022-05-26T21:53:20 IST" duration-ms="717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mystoreTestScript.Axelerant.EndtoEndTest -->
+      <class name="com.mystoreTestScript.Axelerant.Testcase_Loginpage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystoreTestScript.Axelerant.Testcase_Loginpage@2e222612]" started-at="2022-05-26T21:57:56 IST" name="setup" finished-at="2022-05-26T21:58:18 IST" duration-ms="21661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.mystoreTestScript.Axelerant.Testcase_Loginpage@2e222612]" started-at="2022-05-26T21:58:18 IST" name="loginTest" data-provider="Credentials" finished-at="2022-05-26T21:58:44 IST" duration-ms="26644" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gudusamal2017@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gudulu@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystoreTestScript.Axelerant.Testcase_Loginpage@2e222612]" started-at="2022-05-26T21:58:44 IST" name="tearDown" finished-at="2022-05-26T21:58:45 IST" duration-ms="707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystoreTestScript.Axelerant.Testcase_Loginpage@2e222612]" started-at="2022-05-26T21:58:45 IST" name="setup" finished-at="2022-05-26T21:59:02 IST" duration-ms="16687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.mystoreTestScript.Axelerant.Testcase_Loginpage@2e222612]" started-at="2022-05-26T21:59:02 IST" name="loginTest" data-provider="Credentials" finished-at="2022-05-26T21:59:17 IST" duration-ms="15328" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dggdhhh@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kfjuhnn]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [http://automationpractice.com/index.php?controller=my-account] but found [http://automationpractice.com/index.php?controller=authentication]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [http://automationpractice.com/index.php?controller=my-account] but found [http://automationpractice.com/index.php?controller=authentication]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at com.mystoreTestScript.Axelerant.Testcase_Loginpage.loginTest(Testcase_Loginpage.java:55)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystoreTestScript.Axelerant.Testcase_Loginpage@2e222612]" started-at="2022-05-26T21:59:17 IST" name="tearDown" finished-at="2022-05-26T21:59:18 IST" duration-ms="688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mystoreTestScript.Axelerant.Testcase_Loginpage -->
+    </test> <!-- Test -->
+  </suite> <!-- checkout journey -->
+</testng-results>
